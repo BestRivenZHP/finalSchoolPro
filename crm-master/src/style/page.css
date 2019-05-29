@@ -1,0 +1,89 @@
+.page-container {
+    min-height: calc(100vh - 64px);
+    background-color: white;
+}
+
+.page-title {
+    padding: 10px 10px 5px 15px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.page-top-toolbar {
+    padding: 4px 0;
+    .page-btns {
+        display: inline-block; // margin-left: 10px;
+    }
+    .filter-container {
+        float: right;
+        padding-bottom: 0px;
+        .filter-item {
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.page-top-toolbar-history {
+    padding: 20px 10px;
+    .page-btns {
+        display: inline-block; // margin-left: 10px;
+    }
+    .filter-container {
+        float: right;
+        padding-bottom: 0px;
+        .filter-item {
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.panel-title-text {
+    padding: 10px 10px 5px 15px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.el-range-editor--mini .el-range-separator {
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.table-search-total-bar {
+    margin: 8px 0;
+    .sel-condition {
+        border: 1px solid #3d9ee9;
+        padding: 0 5px;
+        margin-right: 10px;
+        padding: 3px;
+        span {
+            text-decoration: none;
+            color: #3d9ee9;
+            font-size: 13px;
+        }
+        i {
+            margin-left: 5px;
+        }
+    }
+    button {
+        padding: 3px 10px;
+    }
+}
+
+.datagrid-pagination {
+    float: right;
+    margin-top: 10px
+}
+
+.dg-cell-enable-flag-T {
+    color: #7c7cda;
+}
+
+.dg-cell-enable-flag-F {
+    color: #b3b3b3;
+}
